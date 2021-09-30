@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ICDM 2021 Tutorial: Automated Taxonomy Discovery and Exploration
+title: ICDM 2021 Tutorial -- Automated Taxonomy Discovery and Exploration
 ---
 
 ## Time and Location
