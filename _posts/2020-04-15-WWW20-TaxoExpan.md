@@ -25,13 +25,13 @@ We propose a framework named __TaxoExpan__ for automatic taxonomy expansion. The
 
 Below the architecture of our matching model. Notably, we leverage the ego network (egonet) centered around the "anchor concept" to capture its neighborhood information. This egonet is then passed though a graph propagation module and a graph readout module to generate a summary vector that serves as the anchor representation. Finally, this anchor representation is combined with the query concept representation and fed into a matching module (e.g., multi-layer perceptron or log-bilinear model) to output the final matching degree. 
 
-![TaxoExpan-matchmodel](https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-matchmodel.jpg?raw=True)
+![TaxoExpan-matchmodel](https://github.com/jmshen1994/jmshen1994.github.io/blob/master/images/TaxoExpan-matchmodel.jpg?raw=True)
 
 ### Self-supervised Training
 
 To train the above matching model, we generate self-supervision data from the existing taxonomy. Take the below figure as an example, we first randomly select an edge in the taxonomy (e.g., <_room_, _gallery_>) as the positive pair. Then, we construct _K_ negative pairs by treating the child node in the selected edge (i.e., _gallery_) as the query and randomly selecting a set of _K_ nodes that are neither parents nor descendants of this query. After that, we group these _K+1_ pairs (one positive and _K_ negatives) into one training instance and repeat the above process to generate multiple instances. Finally, we learn the model based on <a href="https://arxiv.org/pdf/1807.03748.pdf" target="_blank">InfoNCE loss</a> using generated self-supervision data. 
 
-![TaxoExpan-supervision](https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-supervision.jpg?raw=True)
+![TaxoExpan-supervision](https://github.com/jmshen1994/jmshen1994.github.io/blob/master/images/TaxoExpan-supervision.jpg?raw=True)
 
 ## Experiments
 
@@ -78,7 +78,7 @@ Below is the quantitative performance comparison between TaxoExpan and related m
 
 - **Paper Link**: <a href="https://arxiv.org/abs/2001.09522" target="_blank">https://arxiv.org/abs/2001.09522</a>
 
-- **Code & Data**: <a href="https://github.com/mickeystroller/TaxoExpan" target="_blank">https://github.com/mickeystroller/TaxoExpan</a>
+- **Code & Data**: <a href="https://github.com/jmshen1994/TaxoExpan" target="_blank">https://github.com/jmshen1994/TaxoExpan</a>
 
 - **Recorded WWW presentation video**: <a href="https://youtu.be/5N7cWigDrDw" target="_blank">https://youtu.be/5N7cWigDrDw</a>
 
