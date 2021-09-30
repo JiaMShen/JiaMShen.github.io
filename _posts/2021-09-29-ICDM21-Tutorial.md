@@ -3,6 +3,7 @@ layout: post
 title: ICDM 2021 Tutorial -- Automated Taxonomy Discovery and Exploration
 ---
 
+<br>
 ## Time and Location
 - - -
 
@@ -10,19 +11,21 @@ title: ICDM 2021 Tutorial -- Automated Taxonomy Discovery and Exploration
 
 **Location**: Zoom link will be added later
 
+<br>
 ## Slides
 - - -
 
-To be added in ![here](https://drive.google.com/drive/folders/1ZaGm5yLMVgTlF8GUqhW17YvTXqHtmlG8?usp=sharing).
+Will be available at [here](https://drive.google.com/drive/folders/1ZaGm5yLMVgTlF8GUqhW17YvTXqHtmlG8?usp=sharing).
 
-## Abstracts
+<br>
+## Abstract
 - - -
 
 People nowadays are inundated with vast amounts of text data (e.g., news articles, corporate reports, scientific papers, etc.). Turning massive text data into actionable knowledge is an essential research issue in data science. Based on our vision, it is highly beneficial to first structure raw text using taxonomies and then analyze structured text data in a more fine-grained and user-guided way.
 
 In this tutorial, we provide a comprehensive overview of recent research in this direction. We first show a series of methods to identify concept phrases from text corpora and then present methods to organize identified concepts into taxonomies. After that, we introduce techniques to automatically enrich an existing taxonomy and discuss how to explore taxonomies for different downstream applications. Finally, we demonstrate on real-world datasets from multiple domains how different taxonomies can be constructed based on different user tasks and how they can empower knowledge discovery from text data.
 
-
+<br>
 ## Outline
 - - -
 
@@ -41,8 +44,8 @@ In this tutorial, we provide a comprehensive overview of recent research in this
 3. Taxonomy Construction
     * How to represent a taxonomy based on different application needs?
     * Concept taxonomy construction
-    	- Two-step approaches: first extract hypernymy pairs and then organize extracted pairs into taxonomy structure.
-    	- End-to-end approaches: (1) supervised method based on structure prediction, and (2) weakly supervised method based on user seed guidance.
+        - Two-step approaches: first extract hypernymy pairs and then organize extracted pairs into taxonomy structure.
+        - End-to-end approaches: (1) supervised method based on structure prediction, and (2) weakly supervised method based on user seed guidance.
     * Topic taxonomy construction
         - Hierarchical topic modeling
         - Hierarchical clustering
@@ -52,19 +55,19 @@ In this tutorial, we provide a comprehensive overview of recent research in this
     * What are different types of taxonomy enrichment?
     * WordNet enrichment method
     * General taxonomy expansion methods:
-    	- Leveraging knowledge transfer techniques
-    	- Modeling implicit taxonomic relation semantics
-    	- Utilizing position-enhanced graph neural network
-		- Combining features from multiple sources
+        - Leveraging knowledge transfer techniques
+        - Modeling implicit taxonomic relation semantics
+        - Utilizing position-enhanced graph neural network
+        - Combining features from multiple sources
     * General taxonomy modification methods
         - Modifying existing taxonomic relations
         - Generating new emerging concepts for direct taxonomy completion
 
 5. Taxonomy Empowered Applications
     * Weakly-supervised text classification
-    	- One-level multi-class classification
-		- Hierarchical multi-class classification
-		- Hierarchical multi-label classification
+        - One-level multi-class classification
+        - Hierarchical multi-class classification
+        - Hierarchical multi-label classification
     * Query understanding and recommender system
 
 6. Summary and Future Directions
@@ -74,6 +77,7 @@ In this tutorial, we provide a comprehensive overview of recent research in this
 
 7. Question Answering and Discussions
 
+<br>
 ## Presenters
 - - -
 
