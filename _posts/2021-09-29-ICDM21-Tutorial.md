@@ -7,9 +7,11 @@ title: ICDM 2021 Tutorial -- Automated Taxonomy Discovery and Exploration
 ## Time and Location
 - - -
 
-**Time**: TBD (concrete date within Dec. 7-10, 2021 will be added later)
+**Time**: Dec. 9th 3:30pm -- 8:30pm, <i>New Zealand time</i> (Dec. 8th 8:30pm — 1:30am <i>CST</i>) 
 
 **Location**: Zoom link will be added later
+
+**Contact Email**: jmshen1994@gmail.com
 
 <br>
 ## Slides
@@ -26,22 +28,22 @@ People nowadays are inundated with vast amounts of text data (e.g., news article
 In this tutorial, we provide a comprehensive overview of recent research in this direction. We first show a series of methods to identify concept phrases from text corpora and then present methods to organize identified concepts into taxonomies. After that, we introduce techniques to automatically enrich an existing taxonomy and discuss how to explore taxonomies for different downstream applications. Finally, we demonstrate on real-world datasets from multiple domains how different taxonomies can be constructed based on different user tasks and how they can empower knowledge discovery from text data.
 
 <br>
-## Outline
+## Detailed Schedule
 - - -
 
-1. Introduction
+1. Introduction [30min]
 	* Motivations: Why constructing taxonomies and leveraging them to facilitate knowledge discovery from text data?
 	* An overview of tasks related to taxonomy discovery such as concept phrase mining, automated taxonomy construction, and taxonomy enrichment.
 	* An overview of applications that can benefit from knowledge in automatically discovered taxonomies.
 
-2. Phrase Mining
+2. Phrase Mining [45min]
 	* Why phrase mining and how to define properties of high-quality phrases?
 	* Supervised phrase mining methods based on noun phrase chunking and dependency.
 	* Weakly/Distantly supervised phrase mining methods utilizing external knowledge bases.
 	* Unsupervised phrase mining methods exploring signals from topic model and pre-trained language model.
 	* System demos and software introduction
 
-3. Taxonomy Construction
+3. Taxonomy Construction [45min]
     * How to represent a taxonomy based on different application needs?
     * Concept taxonomy construction
         - Two-step approaches: first extract hypernymy pairs and then organize extracted pairs into taxonomy structure.
@@ -51,7 +53,7 @@ In this tutorial, we provide a comprehensive overview of recent research in this
         - Hierarchical clustering
         - Combining text data with network structure
 
-4. Taxonomy Enrichment
+4. Taxonomy Enrichment [45min]
     * What are different types of taxonomy enrichment?
     * WordNet enrichment method
     * General taxonomy expansion methods:
@@ -63,22 +65,24 @@ In this tutorial, we provide a comprehensive overview of recent research in this
         - Modifying existing taxonomic relations
         - Generating new emerging concepts for direct taxonomy completion
 
-5. Taxonomy Empowered Applications
+5. Taxonomy Empowered Applications [45min]
     * Weakly-supervised text classification
         - One-level multi-class classification
         - Hierarchical multi-class classification
         - Hierarchical multi-label classification
     * Query understanding and recommender system
 
-6. Summary and Future Directions
+6. Summary and Future Directions [30min]
     * Summarizing presented principles and techniques
     * Discussing future research directions
     * Interacting with the audience and discussing how to discover and explore taxonomies based on their own data and applications.
 
-7. Question Answering and Discussions
+7. Question Answering and Discussions [20min]
+
+We will have two 20-minute breaks after presenting the Phrase Mining section and the Taxonomy Enrichment section. 
 
 <br>
-## Presenters
+## Organizers and Presenters
 - - -
 
 | ![Jiaming Shen](/images/ICDM2021/JiamingShenAvatar.jpg?raw=True)| **Jiaming Shen**, Ph.D. candidate, Computer Science, Univ. of Illinois at Urbana-Champaign (UIUC). His research focuses on unleashing hidden knowledge buried in unstructured text using taxonomy structures. He has been awarded several fellowships and scholarships, including a Brian Totty Graduate Fellowship and a Yunni \& Maxine Pao Memorial Fellowship. |
