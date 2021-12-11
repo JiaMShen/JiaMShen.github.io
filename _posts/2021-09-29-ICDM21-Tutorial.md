@@ -9,15 +9,13 @@ title: ICDM 2021 Tutorial -- Automated Taxonomy Discovery and Exploration
 
 **Time**: Dec. 9th 3:30pm -- 8:30pm, <i>New Zealand time</i> (Dec. 8th 8:30pm — 1:30am <i>CST</i>) 
 
-**Location**: Zoom link will be added later
-
 **Contact Email**: jmshen1994@gmail.com
 
 <br>
 ## Slides
 - - -
 
-Will be available at [here](https://drive.google.com/drive/folders/1ZaGm5yLMVgTlF8GUqhW17YvTXqHtmlG8?usp=sharing).
+The tutorial slides are available at [https://drive.google.com/drive/folders/1e_wb0MWydNPSEtZGD6g8ZLM-5Q_OtQdh?usp=sharing](https://drive.google.com/drive/folders/1e_wb0MWydNPSEtZGD6g8ZLM-5Q_OtQdh?usp=sharing).
 
 <br>
 ## Abstract
