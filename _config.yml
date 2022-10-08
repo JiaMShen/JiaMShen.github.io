@@ -5,8 +5,8 @@ email: mickeysjm@gmail.com
 description: So we beat on, boats against the current, borne back ceaselessly into the past.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: JiaMShen
-github_username:  JiaMShen
+twitter_username: mickeysjm
+github_username:  mickeysjm
 
 # Build settings
 markdown: kramdown
@@ -43,13 +43,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/JiaMShen"
-  resume_twitter_url:           "https://twitter.com/JiaMShen"
+  resume_github_url:            "https://github.com/mickeysjm"
+  resume_twitter_url:           "https://twitter.com/mickeysjm"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   resume_facebook_url:          "https://www.facebook.com/profile.php?id=100005359005077"
   resume_linkedin_url:          "https://www.linkedin.com/in/jiaming-shen-08186710a/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "JiaMShen.github.io"
+  resume_website_url:           "mickeysjm.github.io"
 
 # Design settings
 resume_theme:                   default
